@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My First Webpage</title>
+        <meta charset="UTF 8">
+        <meta name="description" content="This is my first HTML webpage">
+        <meta name="keywords" content="Beginner, HTML, Web development">
+        <meta name="author" content="Sharmagne Kate Sanrojo">
+        <style>
+            body {
+                font-family: Arial, san-serif;
+                background-color:#847575;}
+            h1 { color: 2c3e50; }
+            p { line-height: 1.5; }
+            .highlight {background-color: rgb(35, 35, 30); }
+
+        </style>
+        <script>
+            function greet() {
+                alert("Hello! Welcome to my Webpage!");
+            }
+        </script>
+    </head>
+    <body onload="greet()">
+    <h1> My First Webpage</h1>
+    <p><i>Hello, Welcome to my Webpage!</i></p>
+    <hr>
+    <!--This List shows my favorite fruits and steps on making a tea-->
+    <h2>My Favorite Fruits</h2>
+    <ul>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Avocado</li>
+    </ul>
+    <h2>Steps to Make Ice Cream</h2>
+    <ol>
+        <li>Gather Ingredients</li>
+        <li>Blend Mixture</li>
+        <li>Chill the mixture</li>
+        <li>Serve</li>
+    </ol>
+
+     <!--This List shows my favorite songs, MV's, and Picture-->
+
+    <h2>My Favorite Song</h2>
+    <p>Musics makes peace</p>
+    <audio controls>
+        <source src="btsmusic/ytmp3free.cc_bts-life-goes-on-official-mv-youtubemp3free.org.mp3" type="audio/mpeg">
+        Your browaer does  not support the uadio element.
+    </audio>
+
+    <h2>My Favorite Movie Scene</h2>
+    <video width="320" height="240" controls>
+        <source src="btsimages/yt1s.social - BTS (방탄소년단) Life Goes On Official MV (360p) (1).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>My Favorite Picture</h2>
+    <img src="image/btsimage.webp" alt="The Biggest Global Fandom" width="300">
+
+    <div style="border: 1px solid #473838; padding: 10px; margin-top:10px;">
+        <p>Live your life to the fullest!<span style=color:rgb(86, 66, 66);"></span><span style=font-weight:bold;"></span></p>
+    </div>
+
+
+
+    <h2> Class Schedule</h2>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>HTML Basis</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>CSS Basics</td>
+        </tr>
+    </table>
+
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name"> Name:</label>
+        <input type="name" id="name" name="name"><br><br>
+
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <input type="sumbit" value="send">
+    </form>
+</body>
+</html>
